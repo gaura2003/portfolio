@@ -56,9 +56,6 @@ export default function Hero({ userData }) {
               </motion.div>
             </>
           )}
-          <motion.h2 variants={itemVariants} className="text-2xl font-semibold mt-4">
-            Gaurav Prajapat
-          </motion.h2>
         </motion.div>
 
         <motion.h1
