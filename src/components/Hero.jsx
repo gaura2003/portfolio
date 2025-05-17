@@ -99,7 +99,9 @@ export default function Hero({ userData }) {
           </motion.a>
           
           <motion.a
-            href="/resume.pdf"
+            href=""
+            target="_blank"
+            rel="noreferrer"
             download
             className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-full inline-flex items-center gap-2 text-sm shadow-lg"
             whileHover={{ scale: 1.05, boxShadow: "0 0 15px rgba(59, 130, 246, 0.5)" }}
