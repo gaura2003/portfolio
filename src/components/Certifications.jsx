@@ -72,9 +72,9 @@ export default function Certifications() {
               }}
               className="bg-gray-800 p-6 rounded-lg flex items-center gap-4 transition-all duration-300"
             >
-              <div className="bg-gray-700 p-3 rounded-lg">
+              {/* <div className="bg-gray-700 p-3 rounded-lg">
                 <img src={cert.logo} alt={`${cert.name} logo`} className="w-16 h-16 object-contain" />
-              </div>
+              </div> */}
               <div>
                 <h3 className="font-semibold text-lg text-blue-400">{cert.name}</h3>
                 <p className="text-gray-300">{cert.issuer}</p>

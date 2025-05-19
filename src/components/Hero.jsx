@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { FaGithub, FaLinkedin, FaDownload } from "react-icons/fa";
+import avatar from '../images/profile.png';
 
 export default function Hero({ userData }) {
   const containerVariants = {
@@ -32,7 +33,7 @@ export default function Hero({ userData }) {
           {userData && (
             <>
               <motion.img
-                src={userData.avatar_url}
+                src={userData.avatar_url || avatar}
                 alt={`${userData.login} avatar`}
                 className="w-24 h-24 rounded-full mx-auto mb-4"
                 initial={{ scale: 0 }}
@@ -88,7 +89,7 @@ export default function Hero({ userData }) {
           </motion.a>
           
           <motion.a
-            href="https://linkedin.com/in/gauravkumar07"
+            href="https://www.linkedin.com/in/gaurav-prajapat-0462b42b4"
             target="_blank"
             rel="noreferrer"
             className="text-2xl hover:text-blue-500 transition-colors"
@@ -99,7 +100,7 @@ export default function Hero({ userData }) {
           </motion.a>
           
           <motion.a
-            href=""
+            href="https://github.com/gaura2003/portfolio/blob/master/gaurav_prajapat_resume.pdf"
             target="_blank"
             rel="noreferrer"
             download

@@ -19,28 +19,29 @@ export default function Testimonials() {
       try {
         // First, load the default testimonials
         const defaultTestimonials = [
-          {
-            quote: "Gaurav delivered our e-commerce platform on time with excellent quality. The site is user-friendly and looks great on all devices.",
-            author: "Azhr Sheikh",
-            title: "CEO of Profitmarts Inc.",
-            avatar: "https://randomuser.me/api/portraits/men/32.jpg",
-            rating: 5
-          },
-          {
-            quote: "The gym membership system Gaurav built streamlined our business operations and increased customer satisfaction.",
-            author: "Azhr Sheikh",
-            title: "Gym Owner",
-            avatar: "https://randomuser.me/api/portraits/men/41.jpg",
-            rating: 5
-          },
-          {
-            quote: "Professional, responsive, and very knowledgeable. Highly recommended for full-stack projects.",
-            author: "Kratik Sharma",
-            title: "Pandit Booking Service Founder",
-            avatar: "https://randomuser.me/api/portraits/men/55.jpg",
-            rating: 5
-          }
-        ];
+  {
+    quote: "Gaurav delivered our e-commerce platform on time with excellent quality. The site is responsive, user-friendly, and perfectly matches our brand vision.",
+    author: "Azhr Sheikh",
+    title: "CEO of Profitmarts Inc.",
+    avatar: "https://randomuser.me/api/portraits/men/32.jpg",
+    rating: 5
+  },
+  {
+    quote: "The gym membership platform built by Gaurav Prajapat completely transformed how we manage multi-gym access. Our customers love the flexibility, and our operations are more efficient than ever.",
+    author: "Azhr Sheikh",
+    title: "Owner, FlexFit Gyms",
+    avatar: "https://randomuser.me/api/portraits/men/41.jpg",
+    rating: 5
+  },
+  {
+    quote: "Working with Gaurav Prajapat was a game changer. Our Pandit booking website is clean, reliable, and has helped us scale our spiritual services online and offline.",
+    author: "Kratik Sharma",
+    title: "Founder, ShubhPooja Services",
+    avatar: "https://randomuser.me/api/portraits/men/55.jpg",
+    rating: 5
+  }
+]
+
         
         // Try to fetch submissions from Formspree
         try {
@@ -52,6 +53,7 @@ export default function Testimonials() {
           
           if (response.ok) {
             const data = await response.json();
+            console.log(data);
             // Process the submissions and add them to testimonials
             const formspreeTestimonials = data.submissions.map(submission => {
               const formData = submission.data;
