@@ -6,7 +6,7 @@ export default function Footer() {
   
   const socialLinks = [
     { icon: <FaGithub />, url: "https://github.com/gaurav-prajapat", label: "GitHub" },
-    { icon: <FaLinkedin />, url: "https://linkedin.com/in/gauravkumar07", label: "LinkedIn" },
+    { icon: <FaLinkedin />, url: "https://www.linkedin.com/in/gaurav-prajapat-0462b42b4", label: "LinkedIn" },
     { icon: <FaEnvelope />, url: "mailto:gauravprajapat2305@gmail.com", label: "Email" }
   ];
 
