@@ -18,7 +18,7 @@ export default function Portfolio() {
   const [repos, setRepos] = useState([]);
   const [userData, setUserData] = useState(null);
   const [loading, setLoading] = useState(true);
-  const username = "gaura2003";
+  const username = "gaurav-prajapat";
 
   // Fetch GitHub user info
   useEffect(() => {

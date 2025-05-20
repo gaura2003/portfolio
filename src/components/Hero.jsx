@@ -78,7 +78,7 @@ export default function Hero({ userData }) {
           className="flex justify-center gap-6 items-center"
         >
           <motion.a
-            href="https://github.com/gaura2003"
+            href="https://github.com/gaurav-prajapat"
             target="_blank"
             rel="noreferrer"
             className="text-2xl hover:text-gray-300 transition-colors"
@@ -100,7 +100,7 @@ export default function Hero({ userData }) {
           </motion.a>
           
           <motion.a
-            href="https://github.com/gaura2003/portfolio/blob/master/gaurav_prajapat_resume.pdf"
+            href="https://github.com/gaurav-prajapat/portfolio/blob/master/gaurav_prajapat_resume.pdf"
             target="_blank"
             rel="noreferrer"
             download

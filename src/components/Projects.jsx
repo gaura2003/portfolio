@@ -111,7 +111,7 @@ export default function Projects({ repos }) {
           className="text-center mt-12"
         >
           <a 
-            href={`https://github.com/${repos[0]?.owner?.login || 'gaura2003'}`}
+            href={`https://github.com/${repos[0]?.owner?.login || 'gaurav-prajapat'}`}
             target="_blank"
             rel="noreferrer"
             className="inline-flex items-center gap-2 bg-gray-700 hover:bg-gray-600 text-white px-6 py-3 rounded-full transition-colors"
